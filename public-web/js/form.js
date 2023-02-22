@@ -31,23 +31,6 @@ submitBtn.addEventListener('click', () => {
      }
 })
 
-const sendData = (path, data) => {
-    fetch(path, {
-        method: 'post',
-        headers: new Headers({'Content-Type': 'application/json'}),
-        body: JSON.stringify(data)
-    }).then((res) => res.json())
-    .then(response => {
-        processData(response);
-    })
-}
-
-const processData = (data) => {
-    loader.style.display = null;
-    if(data.alert){
-        showAlert(data.alert);
-    }
-}
 
 
 const showAlert = (msg) => {
