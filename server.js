@@ -6,7 +6,7 @@ const path = require('path');
 const { join } = require('path');
 
 
-let staticPath = path.join(__dirname, "public");
+let staticPath = path.join(__dirname, "public-web");
 
 const app = express();
 
