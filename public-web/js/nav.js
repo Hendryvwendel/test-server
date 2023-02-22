@@ -15,20 +15,19 @@ const createNav = () => {
         </div>
         
         <ul class="links-container">
-            <li class="link-item"><a href="./index.html" class="link">Home</a></li>
-            <li class="link-item"><a href="./prodpage.html" class="link">Kabels</a></li>
-            <li class="link-item"><a href="#" class="link">Adapters</a></li>
-            <li class="link-item"><a href="#" class="link">Draadloos</a></li>
-            <li class="link-item"><a href="#" class="link">Stekkerdozen</a></li>
+        <li class="link-item"><a href="./index.html" class="link">Home</a></li>
+        <li class="link-item"><a href="./kabels.html" class="link">Kabels</a></li>
+        <li class="link-item"><a href="./adapters.html" class="link">Adapters</a></li>
+        <li class="link-item"><a href="./draadloos.html" class="link">Draadloos</a></li>
+        <li class="link-item"><a href="./stekkerdozen.html" class="link">Stekkerdozen</a></li>
         </ul>
         
         <ul class="mobile-container">
-            <li class="menu-icon"><a href="./img/menu-icon.svg"></a></li>
                 <li class="mobile-link-item"><a href="./index.html" class="link">Home</a></li>
-                <li class="mobile-link-item"><a href="./prodpage.html" class="link">Kabels</a></li>
-                <li class="mobile-link-item"><a href="#" class="link">Adapters</a></li>
-                <li class="mobile-link-item"><a href="#" class="link">Draadloos</a></li>
-                <li class="mobile-link-item"><a href="#" class="link">Stekkerdozen</a></li>
+                <li class="mobile-link-item"><a href="./kabels.html" class="link">Kabels</a></li>
+                <li class="mobile-link-item"><a href="./adapters.html" class="link">Adapters</a></li>
+                <li class="mobile-link-item"><a href="./draadloos.html" class="link">Draadloos</a></li>
+                <li class="mobile-link-item"><a href="./stekkerdozen.html" class="link">Stekkerdozen</a></li>
         </ul>
     `;
 }
