@@ -155,17 +155,17 @@ label a{
 
 .alert-img{
     display: block;
-    height: 150;
+    height: 150px;
     width: auto;
     margin: 10px auto 20px;
     height: auto;
-    max-width: 250px;
+    max-width: 150px;
 }
 
 .alert-msg{
     color: #e24c4b;
     font-size: 20px;
-    text-transform: capitalize;
+    text-transform: none;
     text-align: center;
     line-height: 30px;
     font-weight: 500;
