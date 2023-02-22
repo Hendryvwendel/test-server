@@ -30,6 +30,7 @@ html {
 
 .brand-logo{
     height: 90px;
+    margin-right: 20px;
 }
 
 .nav-items{
@@ -38,7 +39,7 @@ html {
 }
 
 .search{
-    width: 500px;
+    width: calc(100vw - 50vw);
     display: flex;
 }
 
@@ -82,6 +83,45 @@ html {
     width: 30px;
 }
 
+.mobile-container {
+    display: none;
+}
+
+.links-container{
+    padding-bottom: 0.75em;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media  screen and (max-width: 600px) {
+    .nav-items {
+        display: none;
+    }
+
+    .links-container {
+        display: none;
+    }
+
+    .brand-logo {
+        display: none
+    }
+
+    .mobile-link-item {
+        display: none;
+    }
+
+   .menu-icon {
+    display: block;
+    color: black;
+    height: 32px;
+    width: 32px;
+    float: right;
+   }
+
+
+}
 @import 'nav.css';
 
 .hero-section{

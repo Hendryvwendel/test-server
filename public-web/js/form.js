@@ -20,14 +20,7 @@ submitBtn.addEventListener('click', () => {
          showAlert('je moet akkoord gaan met de algemene voorwaarden');
      } else {
          loader.style.display = 'block';
-         sendData('/signup', {
-             name: name.value,
-             email: email.value,
-             password: password.value,
-             tac: tac.checked,
-             notification: notification.checked,
-             seller: false
-         })
+         
      }
 })
 
