@@ -9,6 +9,12 @@ const notification = document.querySelector('#notification');
 submitBtn.addEventListener('click', () => {
     if(name.value.length < 3){
         showAlert('Je naam moet 3 tekens of langer zijn!!');
+    } else if(!email.value.length){
+        showAlert('vul je email-adres in!!')
+    } else if(password.value.length < 8){
+        showAlert('je wachtwoord moet 8 tekens of langer zijn!!')
+    } else if(!numper.value.length){
+        showAlert('je moet akkoord gaan met de algemene voorwaarden')
     }
 })
 
