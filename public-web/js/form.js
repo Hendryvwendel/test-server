@@ -11,7 +11,7 @@ const notification = document.querySelector('#notification');
 
 submitBtn.addEventListener('click', () => {
      if(name.value.length < 3){
-        showAlert('Je naam moet 3 tekens bevatten!!');
+        showAlert('Je naam moet 3 of meer tekens bevatten!!');
      } else if(!email.value.length){
          showAlert('vul je email-adres in!!')
      } else if(password.value.length < 8){
