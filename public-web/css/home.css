@@ -109,7 +109,7 @@ html {
     }
 
     .links-container {
-        display: flex;
+        display: none;
     }
 
     .brand-logo {
@@ -126,6 +126,7 @@ html {
     }
 
     .nav-items {
+        margin-top: 10px;
         margin-right: 30px;
     }
 
