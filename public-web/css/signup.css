@@ -4,14 +4,46 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     width: 100%;
-    min-height: 100vh;
+    min-height: 100%;
+    display: block;
+    background: #f5f5f5;
+    font-family: 'roboto', sans-serif;
+}
+
+.else {
     display: flex;
     justify-content: center;
     align-items: center;
     background: #f5f5f5;
     font-family: 'roboto', sans-serif;
+    margin-top: 35px;
+    
+}
+
+
+.button-box {
+    width: 100vw;
+    place-items: flex-start;
+    height: 50px;
+}
+
+.home-button {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #383838;
+    color: #fff;
+    border-radius: 2px;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin-top: 2em;
+    margin-left: 2em;
+    
 }
 
 .loader{
@@ -126,9 +158,10 @@ label a{
 
 .link{
     color: #383838;
-    text-transform: capitalize;
+    text-transform: none;
     text-align: center;
     display: block;
+    word-spacing: normal;
 }
 
 .alert-box{
@@ -155,7 +188,6 @@ label a{
 
 .alert-img{
     display: block;
-    height: 150px;
     width: auto;
     margin: 10px auto 20px;
     height: auto;
