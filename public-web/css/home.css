@@ -96,21 +96,40 @@ html {
 }
 
 @media  screen and (max-width: 600px) {
-    .nav-items {
+    .cart-img, .pf-img {
         display: none;
     }
 
+    .search-btn {
+        padding: 0 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 8px;
+        padding-right: 10px;
+    }
+
     .links-container {
-        display: none;
+        display: flex;
     }
 
     .brand-logo {
         display: none
     }
 
-    .mobile-link-item {
-        display: none;
+    .nav {
+        place-content: center;
     }
+
+    .navbar {
+        position: relative;
+        
+    }
+
+    .nav-items {
+        margin-right: 30px;
+    }
+
+    
 
    .menu-icon {
     display: block;
@@ -122,6 +141,26 @@ html {
 
    .product-container {
     margin-left: 40px; 
+   }
+
+   .toggle-button {
+    /* position: relative; */
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+   }
+
+   .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #383838;
+    border-radius: 2px
+   }
+
+   header.hero-section {
+    height: 400px;
    }
 }
 @import 'nav.css';
@@ -287,12 +326,10 @@ html {
 .pre-btn{
     left: 0;
     transform: rotate(180deg);
-    
 }
 
 .nxt-btn{
     right: 0;
-    
 }
 
 .pre-btn img, .nxt-btn img{
