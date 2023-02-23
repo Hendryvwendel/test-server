@@ -120,7 +120,9 @@ html {
     float: right;
    }
 
-
+   .product-container {
+    margin-left: 40px; 
+   }
 }
 @import 'nav.css';
 
@@ -244,6 +246,8 @@ html {
 
 .description {
     opacity: 0.5;
+    margin-bottom: 0.355em;
+    margin-top: 0.355em;
 }
 
 .product-brand{
