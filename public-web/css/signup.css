@@ -23,10 +23,15 @@ body {
 }
 
 
+a {
+    
+}
+
 .button-box {
     width: 100vw;
     place-items: flex-start;
     height: 50px;
+    display: flex;
 }
 
 .home-button {
