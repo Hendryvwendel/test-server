@@ -43,12 +43,12 @@ a {
     color: #fff;
     border-radius: 2px;
     text-transform: capitalize;
+    text-decoration: none;
     border: none;
     cursor: pointer;
     display: block;
     margin-top: 2em;
     margin-left: 2em;
-    
 }
 
 .loader{
